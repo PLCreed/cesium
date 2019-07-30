@@ -1,0 +1,43 @@
+// cSpell Settings
+{
+    // Version of the setting file.  Always 0.1
+    "version": "0.1",
+    "// language": [
+        "\n    // language - current active spelling language"
+    ],
+    // Enable / Disable compound words like 'errormessage'
+    "allowCompoundWords": true,
+    // Specify paths/files to ignore.
+    "ignorePaths": [
+        "node_modules",
+        "**/node_modules",
+        "**/node_modules/**",
+        "node_modules/**",
+        "vscode-extension",
+        ".git",
+        "*.dll",
+        "**/*.dll",
+        "ThirdParty",
+        ".concierge",
+        "..github",
+        ".vscode",
+        "Build"
+    ],
+    // this will ignore anything the node_modules directory
+    // the same for this one
+    // the same for this one
+    // Doesn't currently work due to how the current working directory is determined.
+    //
+    // Ignore the .git directory
+    // Ignore all .dll files.
+    // Ignore all .dll files
+    // words - list of words to be always considered correct
+    "words": [
+        "counter",
+        "crnlib",
+        "czml",
+        "inited",
+        "ostring",
+        "unnormalized"
+    ]
+}
